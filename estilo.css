@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+html,
+body {
+  font-family: "Roboto", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 675px;
+    margin: auto auto;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+/* Aumentando a especificidade para o hover */
+.head-logo a:hover,
+.topic-links a:hover {
+    color: #3882f6;
+}
+
+.head-logo {
+    border: 1px solid red;
+    padding: 20px;
+
+}
+
+.head-logo a{
+    color: #f9faf8;
+}
+
+.topic-links a{
+    color: #f9faf8;
+}
+
+.topic-links {
+    border: 1px solid red;
+    padding: 20px;
+
+}
+
+.links-itens {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.head-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
