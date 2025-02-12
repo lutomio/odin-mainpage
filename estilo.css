@@ -20,7 +20,6 @@ ul {
 /* parte de cima do site */
 
 nav {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     width: 675px;
@@ -29,14 +28,10 @@ nav {
 }
 
 header {
-    /* width: 900px; */
-    /* border: 1px solid red; */
     margin: auto auto;
-    /* padding: 0px 20px 0px 20px; */
     background-color: #1f2937;
 }
 
-/* Aumentando a especificidade para o hover */
 .head-logo a:hover,
 .topic-links a:hover {
     color: #3882f6;
@@ -152,7 +147,7 @@ header {
 }
 
 .card {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     width: 120px;
@@ -171,3 +166,91 @@ header {
     font-weight: lighter;
 }
 
+/* terceira parte, frase do thor */
+
+
+.terceira-parte {
+    /* border: 1px solid red; */
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    /* width: 600px; */
+    margin: auto;
+    padding: 100px 150px;
+}
+
+
+.block {
+    /* border: 1px solid red; */
+    width: 700px;
+    margin: auto;
+}
+
+.terceira-parte span {
+    /* border: 1px solid red; */
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 400px;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+/* quarta parte, botao de sing up */
+
+.cta-container {
+    /* border: 1px solid red; */
+    background-color: #f9faf8;;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 0px 25px;
+    /* margin: auto; */
+}
+
+.cta-text {
+    /* border: 1px solid red; */
+    color: #f9faf8;
+    font-weight: 200;
+    padding: 25px 50px;
+}
+
+.cta-text span {
+    font-weight: 600;
+}
+
+.cta-button button {
+    background-color: #3882f6;
+    padding: 5px 30px;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    /* outline: 1px dotted pink; */
+}
+
+.cta-button button:hover {
+    background-color: #68a0f8;
+    cursor: pointer;
+}
+
+/* rodape */
+
+footer {
+    padding: 5px;
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 15px;
+}
