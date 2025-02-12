@@ -29,7 +29,7 @@ nav {
 }
 
 header {
-    width: 900px;
+    /* width: 900px; */
     /* border: 1px solid red; */
     margin: auto auto;
     /* padding: 0px 20px 0px 20px; */
@@ -44,7 +44,7 @@ header {
 
 .head-logo {
     /* border: 1px solid red; */
-    padding: 20px;
+    padding: 20px 0px 0px 25px;
 
 }
 
@@ -76,7 +76,7 @@ header {
     margin-right: auto;
 }
 
-/* esse site é otimo */
+/* preimera parte, esse site é otimo */
 
 .imagem-principal img {
     width: 300px;
@@ -85,7 +85,7 @@ header {
 
 .primeira-parte {
     background-color: #1f2937;
-    width: 900px;
+    /* width: 900px; */
     /* border: 1px solid red; */
     margin: auto auto;
 }
@@ -129,5 +129,45 @@ header {
 .login button:hover {
     background-color: #68a0f8;
     cursor: pointer;
+}
+
+/* seunda parte, cards e textos */
+
+.segunda-parte h2{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 20px;
+}
+
+
+.cards {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 25px 25px 25px;
+}
+
+.card {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    padding: 15px;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+
+.cards p {
+    text-align: center;
+    font-weight: lighter;
 }
 
